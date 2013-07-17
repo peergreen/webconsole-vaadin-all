@@ -1,2 +1,2 @@
-Export-Package com.vaadin.*
+Export-Package com.vaadin.*, org.vaadin.*
 Import-Package *;resolution:=optional
