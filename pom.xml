@@ -29,6 +29,13 @@
     <vaadin.version>7.1.6</vaadin.version>
   </properties>
 
+  <scm>
+    <connection>scm:git:https://forge.peergreen.com/git/git/webconsole/vaadin-all.git</connection>
+    <developerConnection>scm:git:https://forge.peergreen.com/git/git/webconsole/vaadin-all.git</developerConnection>
+    <url>https://forge.peergreen.com/git/summary/?r=webconsole/vaadin-all.git</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>com.vaadin</groupId>
@@ -45,13 +52,13 @@
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-client-compiled</artifactId>
-      <version>7.1.6</version>
+      <version>${vaadin.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-push</artifactId>
-      <version>7.1.6</version>
+      <version>${vaadin.version}</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
